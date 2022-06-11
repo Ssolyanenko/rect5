@@ -77,7 +77,7 @@ class Main extends Component{
 
                 <label>О себе: </label>
 
-                <textarea rows={this.rows} value={userAbout} placeholder="О себе"
+                <textarea rows='7' value={userAbout} placeholder="О себе"
                           onChange={this.onChange}
                           name="userAbout">
 
